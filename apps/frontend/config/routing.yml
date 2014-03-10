@@ -1,0 +1,82 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+<?php $allowed_cultures = '(?:en)'; ?>
+# default rules
+homepage:
+  url: /
+  param: { module: pages, action: index, type: 1 }
+  
+localized_homepage:
+  url:   /:sf_culture/
+  param: { module: pages, action: index, type: 1 }
+  requirements:
+    sf_culture: <?php echo $allowed_cultures ?>  
+  
+about:
+  url: /:sf_culture/about
+  param: { module: pages, action: page, type: 2 }
+  requirements:
+    sf_culture: <?php echo $allowed_cultures ?>  
+    
+contacts:
+  url: /:sf_culture/contacts
+  param: { module: pages, action: page, type: 3 }
+  requirements:
+    sf_culture: <?php echo $allowed_cultures ?>  
+virtual:
+  url: /:sf_culture/virtual
+  param: { module: pages, action: virtual}
+  requirements:
+    sf_culture: <?php echo $allowed_cultures ?> 
+#article routes
+#all articles
+articles:
+  url: /:sf_culture/articles
+  param: { module: articles, action: index}
+  requirements:
+    sf_culture: <?php echo $allowed_cultures ?> 
+#single article
+article:
+  url: /:sf_culture/article/:slug/:id
+  param: { module: articles, action: show}
+  requirements:
+    id: \d+
+    sf_culture: <?php echo $allowed_cultures ?> 
+    
+#projects  
+projects:
+  url: /:sf_culture/projects
+  param: { module: products, action: index }
+  requirements:
+    id: \d+
+    sf_culture: <?php echo $allowed_cultures ?> 
+    
+project:
+  url: /:sf_culture/project/:slug/:id
+  param: { module: products, action: show }
+  requirements:
+    id: \d+
+    sf_culture: <?php echo $allowed_cultures ?> 
+    
+#services    
+services:
+  url: /:sf_culture/services
+  param: { module: categories, action: index }
+  requirements:
+    id: \d+
+    sf_culture: <?php echo $allowed_cultures ?> 
+    
+service:
+  url: /:sf_culture/service/:slug/:id
+  param: { module: categories, action: show }
+  requirements:
+    id: \d+
+    sf_culture: <?php echo $allowed_cultures ?> 
+
+search:
+  url: /search
+  param: { module: pages, action: search }
+
+send_mail:
+  url: /send_mail
+  param: { module: pages, action: send }

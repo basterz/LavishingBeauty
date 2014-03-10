@@ -1,0 +1,8 @@
+rendering: ~
+rememberFilter:
+  class: rememberFilter
+security:  ~
+setCultureFilter:
+  class: setCultureFilter
+cache:     ~
+execution: ~

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="BG" target-language="de" datatype="plaintext" original="messages" date="2012-09-21T09:36:41Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>публикувана</source>
+        <target>veröffentlicht</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>автор</source>
+        <target>Autor</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>източник</source>
+        <target>Quelle</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>прочети повече</source>
+        <target>mehr</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>предишна</source>
+        <target>vorheriger</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>статия</source>
+        <target>Artikel</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>следваща</source>
+        <target>nächster</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>Всички статии</source>
+        <target>Alle Artikel</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>Статията е разгледана</source>
+        <target>Dieser Artikel wurde bereits</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>пъти</source>
+        <target>Male gelesen</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>услуга</source>
+        <target>Leistung</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>Всички услуги</source>
+        <target>Alle Leistungen</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>Популярни статии</source>
+        <target>Meistgelesene Artikel</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>Имате ново съобщение от</source>
+        <target>Sie haben eine neue Nachricht von</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>От</source>
+        <target>Von</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>Относно</source>
+        <target>Betreff</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>Съобщение</source>
+        <target>Nachricht</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Филтрирай</source>
+        <target>Filter anwenden</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>Начало</source>
+        <target>Home</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>За нас</source>
+        <target>Über uns</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>Услуги</source>
+        <target>Wir bieten</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Проекти</source>
+        <target>Projekte</target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>Статии</source>
+        <target>Artikel</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>Контакти</source>
+        <target>Kontakt</target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>Вашето съобщение беше изпратено успешно.</source>
+        <target>Ihre Nachricht wurde gesendet.</target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>Бърз контакт</source>
+        <target>Kontaktformular</target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>име</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>email</source>
+        <target>E-Mail</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>коментар</source>
+        <target>Kommentar</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>Изпрати</source>
+        <target>Senden</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>търсене</source>
+        <target>suchen</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>още</source>
+        <target>mehr</target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>Популярни проекти</source>
+        <target>Meistgelesene Projekte</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>Регистрирай се</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>Към предната страница</source>
+        <target>Zurück zur vorherigen Seite</target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>Форма за контакти</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>ВРЪЗКИ</source>
+        <target>LINKS</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>ПАРТНЬОРИ</source>
+        <target>PARTNER</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>ПОСЛЕДНИ ПРОЕКТИ</source>
+        <target>AKTUELLSTE PROJEKTE</target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>НАШАТА ЦЕЛ</source>
+        <target>UNSERE PHILOSOPHIE</target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>Посетете нашия</source>
+        <target>Besuchen Sie unser</target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>ВИРТУАЛЕН ОФИС</source>
+        <target>VIRTUELLES BÜRO</target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>намерени резултати</source>
+        <target>Ergebnisse</target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>РЕЗУЛТАТИ ЗА</source>
+        <target>ERGEBNISSE FÜR</target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>още</source>
+        <target>mehr</target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>Няма намерени резултати.</source>
+        <target>Keine Ergebnisse gefunden</target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>филтрирай</source>
+        <target>Filter anwenden</target>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>Вие се регистрирахте успешно</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>- приложението е в процес на разработка -</source>
+        <target>- Diese Seite befindet sich derzeit noch in Bearbeitung -</target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>категория</source>
+        <target>Kategorie</target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>вид</source>
+        <target>Art</target>
+      </trans-unit>
+      <trans-unit id="52">
+        <source>фаза</source>
+        <target>Phase</target>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>предишен</source>
+        <target>vorheriges</target>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>проект</source>
+        <target>Projekt</target>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>следващ</source>
+        <target>nächstes</target>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>разгърната площ</source>
+        <target>Gesamtfläche</target>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>предишна статия</source>
+        <target>vorheriger Artikel</target>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>следваща статия</source>
+        <target>nächster Artikel</target>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>предишен проект</source>
+        <target>vorheriges Projekt</target>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>следващ проект</source>
+        <target>nächstes Projekt</target>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>предишна услуга</source>
+        <target>vorherige Leistung</target>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>следваща услуга</source>
+        <target>nächste Leistung</target>
+      </trans-unit>
+      <trans-unit id="63">
+        <source>разгърната площ</source>
+        <target>Gesamtfläche</target>
+      </trans-unit>
+      <trans-unit id="64">
+        <source>характеристики</source>
+        <target>Eigenschaften</target>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>описание</source>
+        <target>Beschreibung</target>
+      </trans-unit>
+      <trans-unit id="66">
+        <source>клиент</source>
+        <target>Kunde</target>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>автор</source>
+        <target>Planung</target>
+      </trans-unit>
+      <trans-unit id="68">
+        <source>автори</source>
+        <target>Planung</target>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>концепция</source>
+        <target>Konzept</target>
+      </trans-unit>
+      <trans-unit id="70">
+        <source>Вашето съобщение беше изпратено успешно!</source>
+        <target>Ihre Nachricht wurde erfolgreich gesendet!</target>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>Съобщението не беше изпратено успешно. Моля опитайте по-късно!</source>
+        <target>Die Nachricht wurde nicht erfolgreich gesendet. Bitte versuchen Sie es später noch einmal!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="BG" target-language="en" datatype="plaintext" original="messages" date="2012-08-03T10:55:44Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>&amp;copy; Вертинити ООД. 2012. Всички права запазени</source>
+        <target>&amp;copy; Vertinity Ltd. 2012. All Rights Reserved</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Създадено от</source>
+        <target>Created from</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>&amp;copy; Vertinity ltd. 2012</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>Новини</source>
+        <target>Articles</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>Редактиране на статия</source>
+        <target>Edit article</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>Списък на всички новини</source>
+        <target>List of all articles</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>Промените са нанесени успешно!</source>
+        <target>The changes are successfuly made!</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>+ Нова статия</source>
+        <target>+ New Article</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>Заглавие на статия</source>
+        <target>Article title</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>Създаден на</source>
+        <target>Created at</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Опции</source>
+        <target>Options</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>Редакция</source>
+        <target>Edit</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>Потвърдете изтриването</source>
+        <target>Confirm delete</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>Изтрий</source>
+        <target>Delete</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>Не са намерени записи</source>
+        <target>No records found</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>Създаване на нова статия</source>
+        <target>Create new article</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>Съдържание</source>
+        <target>Content</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Изображение</source>
+        <target>Image</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>Заглавие</source>
+        <target>Title</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>Подзаглавие</source>
+        <target>Sub title</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>Публикувай?</source>
+        <target>Publish?</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Запиши</source>
+        <target>Save</target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>Отказ</source>
+        <target>Cancel</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>Банери</source>
+        <target>Banners</target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>Редактиране на връзка</source>
+        <target>Edit banner</target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>Списък на всички банери</source>
+        <target>List of all banners</target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>+ Нов банер</source>
+        <target>+ New banner</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>Изображение на връзката</source>
+        <target>Banner image</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>Линк</source>
+        <target>Link</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>Създадена на</source>
+        <target>Created at</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>Създаване на нова връзка</source>
+        <target>Create new banner</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>Примерен линк:</source>
+        <target>Link example</target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>Страница на показване</source>
+        <target>Visualisation page</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>Страници</source>
+        <target>Pages</target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source> - Изображения</source>
+        <target> - Images</target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>Редакция на изображение</source>
+        <target>Edit image</target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>+ Ново изображение</source>
+        <target>+ New image</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>Позиция</source>
+        <target>Position</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>Дата</source>
+        <target>Date</target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>Действия</source>
+        <target>Actions</target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>запис е открит</source>
+        <target>record found</target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>записа са открити</source>
+        <target>records found</target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>Ново изображение</source>
+        <target>New image</target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>Редакция на запис</source>
+        <target>Edit record</target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>+ Нов запис</source>
+        <target>+ New record</target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>Нов запис</source>
+        <target>New record</target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>Кратко заглавие</source>
+        <target>Short title</target>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>SEO Заглавие</source>
+        <target>SEO title</target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>Ключови думи</source>
+        <target>SEO keywords</target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>SEO Описание</source>
+        <target>SEO description</target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>Настройки</source>
+        <target>Settings</target>
+      </trans-unit>
+      <trans-unit id="52">
+        <source>Продукти</source>
+        <target>Products</target>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>Редактиране на продукт</source>
+        <target>Edit products</target>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>Списък на всички продукти</source>
+        <target>List of all products</target>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>+ Нов продукт</source>
+        <target>+ New product</target>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>Име на продукта</source>
+        <target>Product name</target>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>Създаване на нов продукт</source>
+        <target>Create new product</target>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>Публикации</source>
+        <target>Publications</target>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>Редактиране на публикация</source>
+        <target>Edit publication</target>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>Списък на всички публикации</source>
+        <target>List of all publications</target>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>Изображение на публикация</source>
+        <target>Publication image</target>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>Създаване на нова публикация</source>
+        <target>Create new publication</target>
+      </trans-unit>
+      <trans-unit id="63">
+        <source>PDF файл</source>
+        <target>PDF file</target>
+      </trans-unit>
+      <trans-unit id="64">
+        <source>Изображения за слайдър</source>
+        <target>Slider images</target>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>Редактиране на изображение за слайдър</source>
+        <target>Edit slider image</target>
+      </trans-unit>
+      <trans-unit id="66">
+        <source>Списък на всички изображения за слайдър</source>
+        <target>List of all slider images</target>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>Създаване на ново изображение за слайдър</source>
+        <target>Create new slider image</target>
+      </trans-unit>
+      <trans-unit id="68">
+        <source>Регистрирани потребители</source>
+        <target>Registered users</target>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>Списък на всички регистрирали се потребители</source>
+        <target>List of all registered users</target>
+      </trans-unit>
+      <trans-unit id="70">
+        <source>Име</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="72">
+        <source>Редакция на потребител</source>
+        <target>Edit user</target>
+      </trans-unit>
+      <trans-unit id="73">
+        <source>Потребители</source>
+        <target>Users</target>
+      </trans-unit>
+      <trans-unit id="74">
+        <source>Промените са нанесени успешно</source>
+        <target>The changes are successfuly made!</target>
+      </trans-unit>
+      <trans-unit id="75">
+        <source>Съобщението е изпратено успешно.</source>
+        <target>The message was send.</target>
+      </trans-unit>
+      <trans-unit id="76">
+        <source>Грешка! Съобщението не е изпратено.</source>
+        <target>Error! The message was not send.</target>
+      </trans-unit>
+      <trans-unit id="77">
+        <source>+ Нов потребител</source>
+        <target>+ New user</target>
+      </trans-unit>
+      <trans-unit id="78">
+        <source>Роля</source>
+        <target>Role</target>
+      </trans-unit>
+      <trans-unit id="79">
+        <source>Активиран?</source>
+        <target>Active?</target>
+      </trans-unit>
+      <trans-unit id="80">
+        <source>Не са намерени потребители</source>
+        <target>No users found</target>
+      </trans-unit>
+      <trans-unit id="81">
+        <source>Изпрати до избраните</source>
+        <target>Send to selected</target>
+      </trans-unit>
+      <trans-unit id="82">
+        <source>Изпрати до всички</source>
+        <target>Send to all</target>
+      </trans-unit>
+      <trans-unit id="83">
+        <source>Изтрий избраните</source>
+        <target>Delete selected</target>
+      </trans-unit>
+      <trans-unit id="84">
+        <source>потребител е намерен</source>
+        <target>user found</target>
+      </trans-unit>
+      <trans-unit id="85">
+        <source>потребители са намерени</source>
+        <target>users found</target>
+      </trans-unit>
+      <trans-unit id="86">
+        <source>Съобщение</source>
+        <target>Message</target>
+      </trans-unit>
+      <trans-unit id="87">
+        <source>Относно</source>
+        <target>About</target>
+      </trans-unit>
+      <trans-unit id="88">
+        <source>Нов потребител</source>
+        <target>New user</target>
+      </trans-unit>
+      <trans-unit id="89">
+        <source>Changes applied successfully</source>
+        <target>Changes applied successfully</target>
+      </trans-unit>
+      <trans-unit id="90">
+        <source>Вход</source>
+        <target>Enter</target>
+      </trans-unit>
+      <trans-unit id="91">
+        <source>Информация</source>
+        <target>Info</target>
+      </trans-unit>
+      <trans-unit id="92">
+        <source>Парола</source>
+        <target>Password</target>
+      </trans-unit>
+      <trans-unit id="93">
+        <source>Активен?</source>
+        <target>Active?</target>
+      </trans-unit>
+      <trans-unit id="94">
+        <source>Нов Потребител</source>
+        <target>New User</target>
+      </trans-unit>
+      <trans-unit id="95">
+        <source>Начало</source>
+        <target>Home</target>
+      </trans-unit>
+      <trans-unit id="96">
+        <source>Регистрации</source>
+        <target>Registrations</target>
+      </trans-unit>
+      <trans-unit id="97">
+        <source>Здравейте</source>
+        <target>Hello</target>
+      </trans-unit>
+      <trans-unit id="98">
+        <source>Последно посещение от:</source>
+        <target>Last visit from:</target>
+      </trans-unit>
+      <trans-unit id="99">
+        <source>Логове</source>
+        <target>Logs</target>
+      </trans-unit>
+      <trans-unit id="100">
+        <source>Начална стрница</source>
+        <target>Homepage</target>
+      </trans-unit>
+      <trans-unit id="101">
+        <source>Изход</source>
+        <target>Exit</target>
+      </trans-unit>
+      <trans-unit id="102">
+        <source>Логове</source>
+        <target>Logs</target>
+      </trans-unit>
+      <trans-unit id="103">
+        <source>За нас</source>
+        <target>About</target>
+      </trans-unit>
+      <trans-unit id="104">
+        <source>Услуги</source>
+        <target>Categories</target>
+      </trans-unit>
+      <trans-unit id="105">
+        <source>Статии</source>
+        <target>Articles</target>
+      </trans-unit>
+      <trans-unit id="106">
+        <source>Контакти</source>
+        <target>Contact us</target>
+      </trans-unit>
+      <trans-unit id="107">
+        <source>Нова категория</source>
+        <target>New category</target>
+      </trans-unit>
+      <trans-unit id="108">
+        <source>Списък на всички категории</source>
+        <target>List of all categories</target>
+      </trans-unit>
+      <trans-unit id="109">
+        <source>Списък с категории</source>
+        <target>Category list</target>
+      </trans-unit>
+      <trans-unit id="110">
+        <source>Категории</source>
+        <target>Categories</target>
+      </trans-unit>
+      <trans-unit id="111">
+        <source>Списък на всички проекти</source>
+        <target>List of all products</target>
+      </trans-unit>
+      <trans-unit id="111">
+        <source>Списък на всички проекти</source>
+        <target>List of all products</target>
+      </trans-unit>
+      <trans-unit id="112">
+        <source>Избери категория</source>
+        <target>Choose category</target>
+      </trans-unit>
+      <trans-unit id="113">
+        <source>Изчисти филтъра</source>
+        <target>Clear filter</target>
+      </trans-unit>
+      <trans-unit id="114">
+        <source>Филтрирай</source>
+        <target>Filter</target>
+      </trans-unit>
+      <trans-unit id="115">
+        <source>+ Нов проект</source>
+        <target>+ New product</target>
+      </trans-unit>
+      <trans-unit id="116">
+        <source>Име на проекта</source>
+        <target>Product name</target>
+      </trans-unit>
+      <trans-unit id="117">
+        <source>Популярен</source>
+        <target>Popular</target>
+      </trans-unit>
+      <trans-unit id="117">
+        <source>Проекти</source>
+        <target>Products</target>
+      </trans-unit>
+      <trans-unit id="118">
+        <source>Малко изображение</source>
+        <target>Small image</target>
+      </trans-unit>
+      <trans-unit id="119">
+        <source>Голямо изображение</source>
+        <target>Large image</target>
+      </trans-unit>
+      <trans-unit id="120">
+        <source>Популярен проект</source>
+        <target>Popular product</target>
+      </trans-unit>
+      <trans-unit id="121">
+        <source>Публикувана</source>
+        <target>Published</target>
+      </trans-unit>
+      <trans-unit id="122">
+        <source>Популярна</source>
+        <target>Popular</target>
+      </trans-unit>
+      <trans-unit id="123">
+        <source>+ Ново изображение за слайдър</source>
+        <target>+ New slider image</target>
+      </trans-unit>
+      <trans-unit id="124">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="125">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="126">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="127">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="128">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="129">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="130">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="131">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="132">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="133">
+        <source></source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="134">
+        <source></source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

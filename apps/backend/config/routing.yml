@@ -1,0 +1,322 @@
+<?php $admin_prefix = 'admin'; ?>
+# General routes
+homepage:
+  url:   /admin
+  param: { module: common, action: index  }
+
+homepage2:
+ url: /admin/
+ param: { module: common, action: index }
+
+sign_in:
+  url: /<?php echo $admin_prefix ?>/sign_in
+  param: { module: auth, action: sign_in }
+  
+sign_out:
+  url: /<?php echo $admin_prefix ?>/sign_out
+  param: { module: auth, action: sign_out }
+
+settings:
+  url: /<?php echo $admin_prefix ?>/settings
+  param: { module: settings, action: index }
+
+access_log:
+  url: /<?php echo $admin_prefix ?>/access_log
+  param: { module: access_log, action: index }
+  
+# Users routes
+users_list:
+  url: /<?php echo $admin_prefix ?>/users/list
+  param: { module: users, action: index }
+
+users_new:
+  url: /<?php echo $admin_prefix ?>/users/new
+  param: { module: users, action: new }
+
+users_edit:
+  url: /<?php echo $admin_prefix ?>/users/edit/:id
+  param: { module: users, action: edit }
+  requirements:
+    id: \d+
+
+users_delete:
+  url: /<?php echo $admin_prefix ?>/users/delete/:id
+  param: { module: users, action: delete }
+  requirements:
+    id: \d+
+
+users_delete_selected:
+  url: /<?php echo $admin_prefix ?>/users/delete_selected
+  param: { module: users, action: delete_selected }
+  requirements:
+    id: \d+
+
+users_state:
+  url: /<?php echo $admin_prefix ?>/users/state/:id
+  param: { module: users, action: state }
+  requirements:
+    id: \d+
+
+# Send emails
+emails_private:
+  url: /<?php echo $admin_prefix ?>/emails/private/:id
+  param: { module: emails, action: private }
+  requirements:
+    id: \d+
+
+emails_selected:
+  url: /<?php echo $admin_prefix ?>/emails/selected
+  param: { module: emails, action: selected }
+
+emails_all:
+  url: /<?php echo $admin_prefix ?>/emails/all
+  param: { module: emails, action: all }
+
+# Pages
+pages_home:
+  url: /<?php echo $admin_prefix ?>/pages/homepage
+  param: { module: pages, action: view, type: 1 }
+
+pages_about:
+  url: /<?php echo $admin_prefix ?>/pages/about
+  param: { module: pages, action: view, type: 2 }
+
+pages_faq:
+  url: /<?php echo $admin_prefix ?>/pages/faq
+  param: { module: pages, action: view, type: 7 }
+  
+pages_terms_and_conditions:
+  url: /<?php echo $admin_prefix ?>/pages/terms_and_conditions
+  param: { module: pages, action: view, type: 8 }
+  
+pages_contacts:
+  url: /<?php echo $admin_prefix ?>/pages/contacts
+  param: { module: pages, action: view, type: 3 }  
+
+pages_overview:
+  url: /<?php echo $admin_prefix ?>/pages/pages_overview
+  param: { module: pages, action: view, type: 6 }
+  
+  
+# Page listing
+pages_list:
+  url: /<?php echo $admin_prefix ?>/pages/:type/list
+  param: { module: pages, action: list }
+  requirements:
+    type: \d+
+
+pages_new:
+  url: /<?php echo $admin_prefix ?>/pages/:type/new
+  param: { module: pages, action: new }
+  requirements:
+    type: \d+
+
+pages_edit:
+  url: /<?php echo $admin_prefix ?>/pages/:type/edit/:id
+  param: { module: pages, action: edit}
+  requirements:
+    type: \d+
+    id: \d+
+
+pages_delete:
+  url: /<?php echo $admin_prefix ?>/pages/:type/delete/:id
+  param: { module: pages, action: delete }
+  requirements:
+    type: \d+
+    id: \d+
+
+pages_delete_selected:
+  url: /<?php echo $admin_prefix ?>/pages/:type/delete_selected
+  param: { module: pages, action: delete_selected }
+  requirements:
+    type: \d+
+
+# Images
+images_list:
+  url: /<?php echo $admin_prefix ?>/images/:product_id/list
+  param: { module: images, action: list }
+  requirements:
+    page_id: \d+
+
+images_new:
+  url: /<?php echo $admin_prefix ?>/images/:product_id/new
+  param: { module: images, action: new }
+  requirements:
+    page_id: \d+
+
+images_edit:
+  url: /<?php echo $admin_prefix ?>/images/:product_id/edit/:id
+  param: { module: images, action: edit }
+  requirements:
+    page_id: \d+
+    id: \d+
+
+images_delete:
+  url: /<?php echo $admin_prefix ?>/images/:product_id/delete/:id
+  param: { module: images, action: delete }
+  requirements:
+    page_id: \d+
+    id: \d+
+
+images_delete_selected:
+  url: /<?php echo $admin_prefix ?>/images/:product_id/delete_selected
+  param: { module: images, action: delete_selected }
+  requirements:
+    page_id: \d+
+    
+# Products
+products_list:
+  url: /<?php echo $admin_prefix ?>/products/list/:page
+  param: { module: products, action: index, page: 1}
+requirements:
+  page: \d+
+  
+products_new:
+  url: /<?php echo $admin_prefix ?>/products/new
+  param: { module: products, action: new }
+
+products_edit:
+  url: /<?php echo $admin_prefix ?>/products/edit/:id
+  param: { module: products, action: edit }
+  requirements:
+    id: \d+
+
+products_delete:
+  url: /<?php echo $admin_prefix ?>/products/delete/:id
+  param: { module: products, action: delete }
+  requirements:
+    id: \d+    
+products_position:
+  url:   /<?php echo $admin_prefix ?>/products/position/:id
+  param: { module: products, action: position }
+  requirements:
+    id: \d+    
+# Articles
+articles_list:
+  url: /<?php echo $admin_prefix ?>/articles/list/:page
+  param: { module: articles, action: index, page: 1}
+requirements:
+  page: \d+
+  
+articles_new:
+  url: /<?php echo $admin_prefix ?>/articles/new
+  param: { module: articles, action: new }
+
+articles_edit:
+  url: /<?php echo $admin_prefix ?>/articles/edit/:id
+  param: { module: articles, action: edit }
+  requirements:
+    id: \d+
+
+articles_delete:
+  url: /<?php echo $admin_prefix ?>/articles/delete/:id
+  param: { module: articles, action: delete }
+  requirements:
+    id: \d+    
+    
+# Publications
+publications_list:
+  url: /<?php echo $admin_prefix ?>/publications/list/:page
+  param: { module: publications, action: index, page: 1}
+requirements:
+  page: \d+
+  
+publications_new:
+  url: /<?php echo $admin_prefix ?>/publications/new
+  param: { module: publications, action: new }
+
+publications_edit:
+  url: /<?php echo $admin_prefix ?>/publications/edit/:id
+  param: { module: publications, action: edit }
+  requirements:
+    id: \d+
+
+publications_delete:
+  url: /<?php echo $admin_prefix ?>/publications/delete/:id
+  param: { module: publications, action: delete }
+  requirements:
+    id: \d+    
+    
+# Banners
+banners_list:
+  url: /<?php echo $admin_prefix ?>/banners/list/:page
+  param: { module: banners, action: index, page: 1}
+requirements:
+  page: \d+
+  
+banners_new:
+  url: /<?php echo $admin_prefix ?>/banners/new
+  param: { module: banners, action: new }
+
+banners_edit:
+  url: /<?php echo $admin_prefix ?>/banners/edit/:id
+  param: { module: banners, action: edit }
+  requirements:
+    id: \d+
+
+banners_delete:
+  url: /<?php echo $admin_prefix ?>/banners/delete/:id
+  param: { module: banners, action: delete }
+  requirements:
+    id: \d+    
+    
+#categories    
+categories_list:
+  url: /<?php echo $admin_prefix ?>/categories/list/:page/:category_id
+  param: { module: categories, action: index, page: 1, category_id: 0}
+requirements:
+  page: \d+
+  
+categories_new:
+  url: /<?php echo $admin_prefix ?>/categories/new
+  param: { module: categories, action: new }
+
+categories_edit:
+  url: /<?php echo $admin_prefix ?>/categories/edit/:id
+  param: { module: categories, action: edit }
+  requirements:
+    id: \d+
+
+categories_delete:
+  url: /<?php echo $admin_prefix ?>/categories/delete/:id
+  param: { module: categories, action: delete }
+  requirements:
+    id: \d+        
+categories_position:
+  url:   /<?php echo $admin_prefix ?>/categories/position/:id
+  param: { module: categories, action: position }
+  requirements:
+    id: \d+   
+# Banners
+slider_images_list:
+  url: /<?php echo $admin_prefix ?>/slider_images/list/:page
+  param: { module: slider_images, action: index, page: 1}
+requirements:
+  page: \d+
+  
+slider_images_new:
+  url: /<?php echo $admin_prefix ?>/slider_images/new
+  param: { module: slider_images, action: new }
+
+slider_images_edit:
+  url: /<?php echo $admin_prefix ?>/slider_images/edit/:id
+  param: { module: slider_images, action: edit }
+  requirements:
+    id: \d+
+
+slider_images_delete:
+  url: /<?php echo $admin_prefix ?>/slider_images/delete/:id
+  param: { module: slider_images, action: delete }
+  requirements:
+    id: \d+    
+    
+# subscribtions
+subscribtions_list:
+  url: /<?php echo $admin_prefix ?>/subscribtions/list/:page
+  param: { module: subscribtions, action: index, page: 1}
+requirements:
+  page: \d+    
+  
+choose_category:
+  url: /<?php echo $admin_prefix ?>/category/choose
+  param: { module: categories, action: category}

@@ -1,0 +1,73 @@
+all:
+  salt: h&lL0Be@u7ifUlWorL6
+  
+  contact_email: mail@creaton.bg
+  receiver_email: mail@creaton.bg
+  
+  .arrays:
+    cookie_settings:
+      name: ff_cookie
+      days: 14
+      
+    roles:
+      admin: Administrator
+    
+    supported_languages:
+      #bg: Български
+      en: English
+      #ru: Руски
+      #de: Немски
+    
+    page_types:
+      0: Undefined
+      1: Homepage
+      2: About us
+      3: Categories
+      4: Products
+      5: Articles
+      6: Contact us
+      7: FAQ
+      8: Terms and conditions
+    
+    translated_page_types:
+      0: Undefined
+      1: Homepage
+      2: About us
+      3: Categories
+      4: Products
+      5: Articles
+      6: Contact us
+      7: FAQ
+      8: Terms and conditions
+      
+    homepage_slider_image:
+      width: 654
+      height: 314
+      
+    page_wide_image:
+      width: 200
+      height: 100
+      
+    page_image:
+      width: 200
+      height: 100
+      
+    article_thumb_image:
+      width: 136
+      height: 136
+      
+    publication_thumb_image:
+      width: 180
+      height: 240
+      
+    product_big_image:
+      width: 580
+      height: 354
+      
+    banner_thumb_image:
+      width: 184
+      height: 91
+      
+    thumb_image:
+      width: 136
+      height: 136  

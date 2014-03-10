@@ -1,0 +1,54 @@
+prod:
+  .settings:
+    no_script_name:         true
+    logging_enabled:        false
+
+dev:
+  .settings:
+    error_reporting:        <?php echo (E_ALL | E_STRICT)."\n" ?>
+    web_debug:              true
+    cache:                  false
+    no_script_name:         false
+    etag:                   false
+
+test:
+  .settings:
+    error_reporting:        <?php echo ((E_ALL | E_STRICT) ^ E_NOTICE)."\n" ?>
+    cache:                  false
+    web_debug:              false
+    no_script_name:         false
+    etag:                   false
+
+all:
+  .actions:
+    # Set the login page
+    login_module:           auth
+    login_action:           sign_in
+
+    # Set the custom error 404 page
+    error_404_module:       common
+    error_404_action:       error404
+
+    # Set the custom credentials required page
+    secure_module:          auth
+    secure_action:          sign_out
+    
+  .settings:
+    # Default culture
+    default_culture:        en
+    
+    # Default helpers
+    standard_helpers:       [Partial, Cache, SmartLinks, I18N, Text, Admin]
+    
+    # Turn on i18n
+    i18n: true  
+    
+    # Form security secret (CSRF protection)
+    csrf_secret:            '$%^&fghjkDFGH%^&*4567'
+
+    # Output escaping settings
+    escaping_strategy:      true
+    escaping_method:        ESC_SPECIALCHARS
+
+    # Enable the database manager
+    use_database:           true
